@@ -507,6 +507,7 @@ form div {
 /* RESPONSIVO 768*/
 @media screen and (max-width:768px) {
   body {
+
     background-color: rgb(217, 217, 217, 0.5);
   }
 
@@ -571,10 +572,13 @@ form div {
   }
 }
 
-@media screen and (max-width:360px) {
-  body{
-    max-width: 360px;
+@media screen and (max-width:480px) {
+  body {
+    max-width: 480px;
+    margin: auto;
+    overflow-x: hidden;
   }
+
   .logo {
     width: 50%;
   }
@@ -606,7 +610,7 @@ form div {
   }
 
   .menu {
-    height: 20vh;
+    height: 15vh;
   }
 
   ul {
@@ -615,21 +619,56 @@ form div {
     flex-direction: column;
 
   }
-  .container-produto{
+
+  .container-produto {
     justify-content: center;
   }
+  .box-produtos{
+    justify-content: center;
+    max-width: 360px;
+    margin: 5px;
+
+  }
+  .titulo{
+    margin-top: 50px;
+    height: 0px;
+  }
   .container-produtos_box:nth-child(3),
-  .container-produtos_box:nth-child(4), 
-  .container-produtos_box:nth-child(5){
+  .container-produtos_box:nth-child(4),
+  .container-produtos_box:nth-child(5) {
     display: none;
   }
-  
+
   .container-produtos_box-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 130px;
   }
-footer{
-  flex-wrap: wrap;
-}
-  
+
+  footer {
+   margin: 20px auto;
+ 
+  }
+  .box-footer{
+
+    flex-direction: column;
+  }
+  .logo-footer{
+
+
+  }
+  .area-formulario-footer{
+    margin: 10px 0;
+  } .input-formulario-footer{
+    margin: 10px 0;
+  }.conteudo-footer_faleConosco-titulo{
+  margin-top: 50px;
+  }
+  .btn-formulario-footer{
+    width: 70%;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+
+ 
+
 }
