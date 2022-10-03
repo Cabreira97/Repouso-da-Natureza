@@ -22,7 +22,23 @@ select:focus {
 input {
   border: none;
 }
+body::-webkit-scrollbar {
+  width: 8px;               
+}
 
+body::-webkit-scrollbar-track {
+  background: #485726;        
+}
+
+
+body::-webkit-scrollbar-thumb {
+background-color: #F5F5F5;
+border-radius: 10px; 
+       
+}
+body::-webkit-scrollbar-thumb:hover{
+  background-color: #849d48;
+}
 /* Começa o Header */
 header {
   height: 10vh;
@@ -250,6 +266,7 @@ nav ul li a:hover {
   line-height: 40px;
   font-weight: 500;
   color: #464646;
+  
 
 }
 
@@ -311,16 +328,17 @@ footer {
 
 .input-formulario-footer {
   width: 100%;
-  box-shadow: 5px 5px 20px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 20px -15px rgba(0, 0, 0, 1);
   background-color: #F5F5F5;
   height: 20%;
   margin-bottom: 20px;
-
-
+}
+.input-formulario-footer:hover, .area-formulario-footer:hover{
+  background-color: rgb(70, 70, 70,0.2);
 }
 
 .area-formulario-footer {
-  box-shadow: 5px 5px 20px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 20px -15px rgba(0, 0, 0, 1);
   background-color: #F5F5F5;
   width: 100%;
   height: 30%;
@@ -526,16 +544,31 @@ form div {
     line-height: 30px;
   }
 
+  .btn-header {
+    border: 2px solid #485726;
+    color: #485726;
+
+  }
+
+  .btn-header:hover {
+    background-color: #485726;
+  }
+
   .subtexo-banner {
     line-height: 30px;
   }
 
   .btn-banner {
     font-size: 70%;
+    background-color: #485726;
+  }
+
+  .menu {
+    background-color: #485726;
   }
 
   nav ul li a {
-    font-size: 15px;
+    font-size:70%;
   }
 
   .container-produtos_box:nth-child(3),
@@ -546,6 +579,10 @@ form div {
   .container-produtos_box-img {
     width: 190px;
     height: 184px;
+  }
+
+  .container-produtos_box-itens_vermais {
+    color: #485726;
   }
 
   .box-footer {
@@ -572,9 +609,9 @@ form div {
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:360px) {
   body {
-    max-width: 480px;
+    max-width: 360px;
     margin: auto;
     overflow-x: hidden;
   }
@@ -623,16 +660,19 @@ form div {
   .container-produto {
     justify-content: center;
   }
-  .box-produtos{
+
+  .box-produtos {
     justify-content: center;
     max-width: 360px;
     margin: 5px;
 
   }
-  .titulo{
+
+  .titulo {
     margin-top: 50px;
     height: 0px;
   }
+
   .container-produtos_box:nth-child(3),
   .container-produtos_box:nth-child(4),
   .container-produtos_box:nth-child(5) {
@@ -645,30 +685,35 @@ form div {
   }
 
   footer {
-   margin: 20px auto;
- 
+    margin: 20px auto;
+
   }
-  .box-footer{
+
+  .box-footer {
 
     flex-direction: column;
   }
-  .logo-footer{
 
+  .logo-footer {}
 
-  }
-  .area-formulario-footer{
+  .area-formulario-footer {
     margin: 10px 0;
-  } .input-formulario-footer{
-    margin: 10px 0;
-  }.conteudo-footer_faleConosco-titulo{
-  margin-top: 50px;
   }
-  .btn-formulario-footer{
+
+  .input-formulario-footer {
+    margin: 10px 0;
+  }
+
+  .conteudo-footer_faleConosco-titulo {
+    margin-top: 50px;
+  }
+
+  .btn-formulario-footer {
     width: 70%;
     height: 50px;
     margin-bottom: 50px;
   }
 
- 
+
 
 }

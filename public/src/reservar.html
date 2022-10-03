@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recanto da Natureza</title>
   <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="/public/src/style.css">
+  <link rel="stylesheet" href="../src/style.css">
+  <link rel="stylesheet" href="/public/src/form.css">
 </head>
 
 <body>
@@ -47,36 +48,69 @@
 
     <section class="formulario">
       
-        <form action="">
-          <div>
-            <label for="">Nome completo</label>
-            <input type="text" placeholder="Digte seu nome">
-            <input type="text" placeholder="Digte seu nome">
-          </div>
-          <div>
-            <label for="">Data de Nascimento</label>
-            <input type="date">
-          </div>
-          <div>
-            <label for="">Email</label>
-            <input type="email" placeholder="Digte seu email">
-          </div>
-          <div>
-            <label for="">Telefone de contato</label>
-            <input type="tel" placeholder="Digte seu telefone">
-          </div>
-          <div>
-            <label for="">Dados do cartão</label>
-            <input type="number" placeholder="numero do cartão">
-            <div>
-              <input type="number" placeholder="CVC">
-              <input type="date" placeholder="numero do cartão">
-            </div>
-          </div>
+      <form>
+        <h1>Faça seu pedido aqui.</h1>
+        
+        <fieldset>
+          
+          <legend> Informações Basicas</legend>
+        
+          <label>Nome:</label>
+          <input class="input-info" type="text" placeholder="Seu nome">
+        
+          <label for="email">Email:</label>
+          <input class="input-info" type="email" placeholder="E-mail">
+
+          <label for="email">Telefone:</label>
+          <input class="input-info" type="tel" placeholder="(DDD)99999-9999">
+
+          <label for="job">Forma de pagamento</label>
+          <select>
+            
+            <optgroup label="Cartão"> 
+              <option value="">3X sem juros</option>
+              <option value="">6X sem juros</option>
+              <option value="">9X sem juros</option>
+              <option value="">12X sem juros</option>
+            </optgroup>
+              <option value="">Pix</option>
+              <option value="">Boleto</option>
+            
+           
+          </select>
+          <label>Escolha seu pacote</label>
+          <select class="pacote">
+            <optgroup >
+
+              <option>Pacote Familia I </option>
+              <option >Pacote Familia I </option>
+              <option >Pacote Lua de mel</option>
+              <option>Pacote Premiun</option>
+              <option>Pacote Casal</option>
+             
+            </optgroup>
+            
+          </select>
+          <label>Adicionais</label>
+
+          <input type="checkbox"><label class="light" for="development">Café da manhã</label><br>
+          <input type="checkbox"><label class="light" for="design">Pacote aventura</label><br>
+
+          <input type="checkbox">
+          <label class="light" for="business">Tudo que é de bom</label>
+        </fieldset>
+        <fieldset class="pagamento">  
+       
+          
+         </fieldset>
+       
+        <button onclick="myFunction()" type="submit">Fazer reserva</button>
+        
+       </form>
           
          
 
-        </form>
+        
     </section>
 
 
@@ -107,6 +141,13 @@
       </div>
     </div>
   </footer>
+ 
+
+<script>
+function myFunction() {
+  alert("Obrigado por fazer a reserva");
+}
+</script>
 </body>
 
 </html>
