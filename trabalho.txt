@@ -1,0 +1,44 @@
+Historia do Manjaro Linux
+
+Manjaro foi lançado em 10 de julho de 2011 pela empresa Manjaro GmbH & Co. Kg, essa distriubição linux é livre e possui seu codigo codigo fonte aberto  e foi baseado no sistema operacional do Arch linux . Manjaro é considerado um sistama operacional com facil uso e possui uma boa acessibilidad.Primeiramente foi projetado para funcionar totalmente atraves de gerenciador de pacotes com software pré-instalados. 
+
+Mesmo o Manjaro sendo lançado em 2011 foi lançado em uma forma incompleta,tendo vista que meados de 2013, o mesmo teve as suas princpicpais  implemantaçõos como um instalador GUI, Pacman(gerenciador de pacote) , manjaro hardware detection que tem como objetivo a dectecção de drivers de video gratuitos e proprietarios e o Manjaro Settings Manager que seria para configuração de todo sistema alem do gerenciamento dos usuarios
+
+A primeira versão foi lançada em  10/07/2011 e a ultima em 18/06/2022 que seria 21.3.0
+
+//////////////////////////////////////
+Publico alvo
+
+O Manjaro é um sistema operacional que possui uma grande acessibilidade e é indicado para quem gosta de jogar jogos eletrônicos, pois, ele alcança melhores perfomace e compatibilidade   em computadores não tão potentes, tendo em vista que o acesso aos drives é mais facil graças ao Manjaro hardware deteciton.
+O Manjaro alcaça uma melhor estabilidade  e o desempenho dos drivers das placas de videos. 
+
+/////////////////////////////////
+A fatia do mercado
+De acordo com forum famoso como viva linux, diolinux o Manjaro esta listado como um dos 20 melhors distribuição linux que o mercado possui atualmente
+/////////////////////////////////
+Requisitos minimos
+O Manjaro não exige muito requisitos para ser rodado em uma maquina, basta 1 GB de RAM, Processador de 1 GHz,Cerca de 25-30 GB de espaço no disco rígido e é possivel ser rodado diretamente pelo pendrive.
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////
+https://www.edivaldobrito.com.br/manjaro-o-lado-mais-facil-e-a-face-mais-bonita-do-arch-linux/
+
+https://www.vivaolinux.com.br/artigo/Manjaro-Linux-Treze-motivos-para-desfrutar-da-simplicidade
+
+https://diolinux.com.br/sistemas-operacionais/manjaro/10-anos-manjaro.html
+
+https://manjaro.org/hardware/
+
+https://blog.betrybe.com/distribuicoes-linux/#:~:text=Manjaro%20agora%20mesmo.-,Linux%20Debian,tamb%C3%A9m%20%C3%A9%20chamada%20de%20Bullseye.
+
